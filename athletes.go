@@ -51,8 +51,10 @@ type AthleteStats struct {
 	RecentRunTotals           AthleteTotals `json:"recent_run_totals"`
 	YTDRideTotals             AthleteTotals `json:"ytd_ride_totals"`
 	YTDRunTotals              AthleteTotals `json:"ytd_run_totals"`
+	YTDSwimTotals             AthleteTotals `json:"ytd_swim_totals"`
 	AllRideTotals             AthleteTotals `json:"all_ride_totals"`
 	AllRunTotals              AthleteTotals `json:"all_run_totals"`
+	AllSwimTotals             AthleteTotals `json:"all_swim_totals"`
 }
 
 type AthleteTotals struct {
